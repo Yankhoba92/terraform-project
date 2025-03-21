@@ -1,0 +1,15 @@
+# Fichiers Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+# Fichiers sensibles
+*.pem
+*.key
+*.cert
+
+# Fichiers d'environnement
+.env
