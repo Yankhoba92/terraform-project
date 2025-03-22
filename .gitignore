@@ -13,3 +13,5 @@ terraform.tfstate.lock.info
 
 # Fichiers d'environnement
 .env
+notfound 
+notfound.pub 
