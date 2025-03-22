@@ -87,7 +87,13 @@ L'objectif de ce mini-projet était de déployer une infrastructure cloud automa
    - Un provisioner a été utilisé pour configurer la VM et déployer l'application.
 
 3. **Stockage et base de données** :
-   - Le stockage Blob et la base de données MySQL ont été créés, mais leur intégration avec l'application n'a pas été réalisée.
+   - Le stockage Blob et la base de données MySQL ont été créés
+   - 
+   - Lire et écrire des fichiers sur le stockage cloud (S3, Blob Storage, GCS) 
+   Gérer les autorisations d’accès aux fichiers
+
+![Machine virtuelle dans Azure](images/storage_file.png)  
+*Capture d'écran du fichier déployer grace à mon code python.*
 
 ### Points Manquants ou à Améliorer
 1. **Intégration du backend avec le stockage et la base de données** :
