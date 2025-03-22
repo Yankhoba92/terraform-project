@@ -14,3 +14,16 @@ output "mysql_database_name" {
   description = "Nom de la base de données MySQL"
   value       = azurerm_mysql_flexible_database.database.name
 }
+
+
+
+output "stockage_account_name" {
+  description = "Nom du compte de stockage"
+  value       = azurerm_storage_account.storage.name
+  
+}
+
+output "vm_ssh_command" {
+  description = "Commande SSH pour se connecter à la VM"
+  value       = "ssh ${var.admin_username}@${azurerm_public_ip.public_ip.ip_address}"
+}
